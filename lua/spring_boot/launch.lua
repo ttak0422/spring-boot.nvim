@@ -162,6 +162,12 @@ M.setup = function(_)
   })
 end
 
+-- WIP: test implementation
+-- setup must be executed in advance.
+M.start = function(_)
+  vim.lsp.start(ls_config)
+end
+
 -- 参考资料
 -- https://github.com/spring-projects/sts4/issues/76
 -- https://github.com/spring-projects/sts4/issues/1128
